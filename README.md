@@ -1,6 +1,6 @@
 # Spring Boot Hello World
 
-A spring boot enabled hello world application Hola
+A spring boot enabled hello world application Hola Hola
 
 [![Build Status](https://travis-ci.org/gazgeek/springboot-helloworld.svg?branch=master)](https://travis-ci.org/gazgeek/springboot-helloworld)
 
