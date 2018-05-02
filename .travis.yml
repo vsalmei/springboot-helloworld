@@ -5,9 +5,9 @@ sudo: false
 deploy:
   provider: heroku
   api_key:
-    secure: BD1U6Bg1/nWiy/Y0bcvjoG2pHsyaeufXK34sKo+I0T5nXcm640fx6wVMuIjjpNHDFe0fKEYhJXYO0VurOmuxTKWR1WxdeqZjQ0Ha4QDTwDgXYjk5Cy9iDRuhQINJqANce7lyRsB8WZ1HbsnFl/ZBrVZUINtbNs5mLYwrAmRSVyE=
+    secure: $HEROKU_API_KEY
   app: springboot-helloworld
   on:
-    repo: gazgeek/springboot-helloworld
+    repo: vsalmei/springboot-helloworld
 after_success:
   - mvn clean test jacoco:report coveralls:report
