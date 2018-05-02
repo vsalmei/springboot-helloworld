@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     String home() {
-        return "HelloWorld , testando springboot com CodeAnywhere, GitHub , Travis CI e Heroku";
+        return "RICARDO , VAI TRABALHAR ";
     }
 
 }

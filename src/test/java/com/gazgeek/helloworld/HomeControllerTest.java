@@ -28,7 +28,7 @@ public class HomeControllerTest {
     public void helloWorld() {
         getRequest("/")
             .assertStatusCode(OK)
-            .assertResponseBody("HelloWorld , testando springboot com CodeAnywhere, GitHub , Travis CI e Heroku");
+            .assertResponseBody("RICARDO , VAI TRABALHAR ");
     }
 
     private HelloWorldResponse getRequest(String uri) {
