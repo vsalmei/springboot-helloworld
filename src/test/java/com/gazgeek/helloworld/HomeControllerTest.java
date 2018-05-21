@@ -28,7 +28,7 @@ public class HomeControllerTest {
     public void helloWorld() {
         getRequest("/")
             .assertStatusCode(OK)
-            .assertResponseBody("RICARDO , VAI TRABALHAR ");
+            .assertResponseBody("SpringBoot test");
     }
 
     private HelloWorldResponse getRequest(String uri) {
