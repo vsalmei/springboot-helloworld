@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     String home() {
-        return "RICARDO , VAI TRABALHAR ";
+        return "SpringBoot test";
     }
 
 }
